@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="C:\Users\Angel Daniel\Desktop\Sprint\css\style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<title>Encriptador</title>
+</head>
+
+<body>
+	<header>
+	<img class="logo" src="Imagenes/Vector.png" alt="logo de alura">
+	</header>
+	
+	<main>
+		<section>
+			<textarea class="text-input" id="inputTexto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+			<div>
+				<h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+			</div>
+
+		<div class="botones">
+			<button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+			<button type="button" id="btn-desencriptar" onclick ="desencriptar()">Desencriptar</button>
+		</div>
+		</section>
+
+		<section>
+			<p id="texto"></p>
+			<textarea id="mensaje" cols="20" rows="10"  placeholder="Ningun mensaje fue encontrado"></textarea>
+			<div>
+				<button id="copiar" onclick="copy()">Copiar</button>
+			</div>
+		</section>
+
+	</main>
+</body>
+<script src="C:\Users\Angel Daniel\Desktop\Sprint\JavaScript\copiar.js"></script>
+
+</html>
